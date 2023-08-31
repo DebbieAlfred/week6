@@ -29,3 +29,11 @@ for (let i = 0; i < strArray.length; i++){
     
     }
     alphabets("abdsgyhidsaadgbdaasbvcydsaabdgsaayre");
+
+    /*Given a string of items to be ``rice, yam, beans, cocoyam, banana, semo, table, tyre, milk, phone, watch, chair" use methods to separate the edible and non-edible items from the string.
+Note: your output should be two new strings, one containing edible items and the other non-edible items.
+*/ 
+
+let items = "rice, yam, beans, cocoyam, banana, semo, table, tyre, milk, phone, watch, chair"
+let itemsArray = items.split(", ");
+
