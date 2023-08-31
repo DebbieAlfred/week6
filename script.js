@@ -37,3 +37,24 @@ Note: your output should be two new strings, one containing edible items and the
 let items = "rice, yam, beans, cocoyam, banana, semo, table, tyre, milk, phone, watch, chair"
 let itemsArray = items.split(", ");
 
+let containerEdible = [];
+let containerNonEdible = [];
+
+for (let i = 0; i < itemsArray.length; i++){
+if (itemsArray[i] === "rice" || 
+itemsArray[i] === "yam" || 
+itemsArray[i] === "beans" || 
+itemsArray[i] === "cocoyam" || 
+itemsArray[i] === "banana" || 
+itemsArray[i] === "semo" || 
+itemsArray[i] === "milk") {
+    containerEdible.push(itemsArray[i]);
+} else {
+ containerNonEdible.push(itemsArray[i]);
+}   
+}
+let joinEdible = containerEdible.join(", ");
+console.log(`the edible items are "${joinEdible}"`);
+
+let joinNonEdible = containerNonEdible.join(", ");
+console.log(`the nonedible items are "${joinNonEdible}"
