@@ -4,7 +4,21 @@
 Note: the output is expected to be a number for each of the counted elements.*/ 
 function alphabets(str){
 let strArray=str.split("");
+
 let containerA = [];
 let containerB = [];
 let containerD = [];
 let containerY = [];
+
+for (let i = 0; i < strArray.length; i++){
+    if (strArray[i] === "a"){
+        containerA.push(strArray[i]);
+    } if (strArray[i] === "b"){
+        containerB.push(strArray[i]);
+    } if (strArray[i] === "d"){
+        containerD.push(strArray[i]);
+    } if (strArray[i] === "y"){
+        containerY.push(strArray[i]);
+    } 
+    }
+    
