@@ -22,3 +22,10 @@ for (let i = 0; i < strArray.length; i++){
     } 
     }
     
+    console.log(`the number of a is ${containerA.length}`);
+    console.log(`the number of b is ${containerB.length}`);
+    console.log(`the number of d is ${containerD.length}`);
+    console.log(`the number of y is ${containerY.length}`);
+    
+    }
+    
