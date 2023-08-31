@@ -57,4 +57,4 @@ let joinEdible = containerEdible.join(", ");
 console.log(`the edible items are "${joinEdible}"`);
 
 let joinNonEdible = containerNonEdible.join(", ");
-console.log(`the nonedible items are "${joinNonEdible}"
+console.log(`the nonedible items are "${joinNonEdible}"`);
