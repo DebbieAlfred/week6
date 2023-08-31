@@ -28,4 +28,4 @@ for (let i = 0; i < strArray.length; i++){
     console.log(`the number of y is ${containerY.length}`);
     
     }
-    
+    alphabets("abdsgyhidsaadgbdaasbvcydsaabdgsaayre");
